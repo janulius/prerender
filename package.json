@@ -14,6 +14,7 @@
     "compression": "~1.7.1",
     "express": "~4.16.2",
     "he": "~1.1.1",
+    "prerender-memory-cache": "^1.0.2",
     "valid-url": "~1.0.9"
   },
   "devDependencies": {
@@ -21,7 +22,7 @@
     "sinon": "^2.2.0"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "CACHE_MAXSIZE=\"1000\" CACHE_TTL=\"600\"  node server.js",
     "test": "./node_modules/.bin/mocha"
   },
   "engines": {
