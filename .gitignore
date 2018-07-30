@@ -5,5 +5,5 @@ node_modules/
 .ebextensions/
 .idea/
 package-lock.json
-logs/
+logs/*
 docker-compose.yml
