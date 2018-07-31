@@ -22,7 +22,7 @@
     "sinon": "^2.2.0"
   },
   "scripts": {
-    "start": "CACHE_MAXSIZE=\"1000\" CACHE_TTL=\"86400\"  node server.js",
+    "start": "PAGE_LOAD_TIMEOUT=\"60000\" CACHE_MAXSIZE=\"1000\" CACHE_TTL=\"86400\"  node server.js",
     "test": "./node_modules/.bin/mocha"
   },
   "engines": {
